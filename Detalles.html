@@ -34,6 +34,114 @@
 
 
 <body>
-    <h1>Arica</h1>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+
+    <!-- Titulo con el Logo alineados a la izquierda -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./Assets/IMG/nube.png" alt="logoNube" width="50" height="44" class="me-2">
+      EL CLIMA
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./indexkyu.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Detalles.html">Detalle</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+ <main class="container my-4">
+      <section class="row">
+        <div class="col col-lg-8">
+          <h1>El tiempo en:</h1>
+          <!-- Card horizontal start -->
+          <div class="card mb-3 card-altura border border-info">
+            <div class="row g-0">
+              <div
+                class="col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-brightness-high" style="font-size: 90px"></i>
+              </div>
+              <div class="col-lg-8">
+                <div class="card-body">
+                  <h2 class="card-title">ARICA</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Soleado</li>
+                    <li class="list-group-item">Temperatura: 31°C</li>
+                    <li class="list-group-item">Humedad: 13%</li>
+                    <li class="list-group-item">Viento: 6 km/h</li>
+                  </ul>
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Última actualización hace 3 minutos</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card horizontal end -->
+        </div>
+
+        <div class="col col-lg-4 ">
+          <h3>Pronóstico semanal</h3>
+
+          <!-- Card pronóstico -->
+          <div class="card card-altura border border-info">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Lunes: 23°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Martes: 22°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-cloud-sun"></i> Miércoles: 21°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Jueves: 24°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Viernes: 24°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Sábado: 24°C
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-brightness-high"></i> Domingo: 24°C
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="./indexkyu.html" class="nav-link px-2 text-body-secondary"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="./Detalles.html" class="nav-link px-2 text-body-secondary"
+            >Detalle</a
+          >
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2025 Bootcamp Front End</p>
+    </footer>
 </body>
 </html>
