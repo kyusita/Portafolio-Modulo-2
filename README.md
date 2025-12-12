@@ -11,6 +11,11 @@ trabajo se versiona en **Git/GitHub** e incluye un **README** descriptivo.
 Esta aplicación muestra el tiempo actual en 10 localidades.
 Al hacer click en una de las localidades, te llevará a una vista de detalle mostrando el tiempo actual junto con un pronóstico para la siguiente semana.
 
+## Repositorio del proyecto
+
+Puedes acceder al repositorio aquí:  
+🔗 **[weather-frontend-m2](https://github.com/kyusita/weather-frontend-m2)**
+
 ## Requisitos funcionales
 
 - Ejemplo de uso de JS 1: Navegación desde card
